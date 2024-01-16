@@ -38,6 +38,12 @@ ul {
     font-size: 20px;
     font-weight: 800;
     cursor: pointer;
+    transition: all linear .3s;
+}
+
+.btn-primary:hover{
+    color: #000;
+    background-color: #13131833;
 }
 
 .common-title {
@@ -80,6 +86,10 @@ ul {
     gap: 50px;
 }
 
+.nav-toggle{
+    visibility: hidden;
+}
+
 .nav-title {
     color: #131318;
     font-size: 36px;
@@ -96,6 +106,10 @@ ul {
     color: var(--Dark-02, #424247);
     font-size: 18px;
     font-weight: 400;
+    transition: all linear .3s;
+}
+.nav-menu .nav-list li a:hover{
+    color: #FF5400;
 }
 
 /* Header / Nav Part End */
@@ -158,6 +172,7 @@ ul {
     text-align: center;
 }
 
+
 .drop {
     width: 174px;
     height: 52px;
@@ -173,6 +188,12 @@ ul {
     background: #FFF;
     border: 0px;
     margin: 0 17px;
+    transition: all linear .3s;
+}
+
+.drop:hover{
+    color: #000;
+    background-color: #FF5400;
 }
 
 .one {
@@ -403,6 +424,7 @@ ul {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 16px;
 }
 
 .dis-card {
@@ -627,7 +649,13 @@ ul {
     position: relative;
     bottom: 170px;
     left: 338px;
+    transition: all linear .3s;
 }
+
+.sticker:hover{
+    background-color: rgb(157, 192, 104);
+}
+
 
 .sticker p {
     color: #FFF;
@@ -640,6 +668,7 @@ ul {
     font-size: 32px;
     font-weight: 800;
 }
+
 
 /* News letter Part End */
 
@@ -675,6 +704,11 @@ ul {
     color: #000;
     font-size: 24px;
     margin-left: 25px;
+    transition: all linear .3s;
+}
+
+.foot-icon a:hover{
+    color: #FF5400;
 }
 
 .border-bottom {

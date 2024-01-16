@@ -3,9 +3,6 @@
 @media screen and (max-width:575.99px) {
 
     /* Nav/Banner */
-    /* .container {
-        padding: 65px 70px;
-    } */
 
     .container {
         padding: 65px 0px 65px 172px;
@@ -15,13 +12,34 @@
         flex-direction: column;
     }
 
-    .nav-title{
+    .nav-title {
         width: 20.9rem;
     }
 
     .nav-menu {
         visibility: hidden;
     }
+
+
+    .nav-toggle {
+        visibility: visible;
+        width: 16.5px;
+        height: 10.5px;
+        font-size: 6rem;
+        position: relative;
+        left: 63rem;
+        cursor: pointer;
+    }
+    
+    .nav-toggle a{
+        color: #000;
+        transition: all linear .3s;
+    }
+    
+    .nav-toggle a:hover{
+        background-color: #FF5400;
+    }
+
 
     .banner-content {
         padding-left: 40px;
@@ -458,7 +476,7 @@
 
 /* Responsive for Mobile */
 
-@media screen and (max-width:360px){
+@media screen and (max-width:360px) {
     .nav-title {
         width: 14rem;
         color: #131318;
