@@ -3,8 +3,12 @@
 @media screen and (max-width:575.99px) {
 
     /* Nav/Banner */
-    .container {
+    /* .container {
         padding: 65px 70px;
+    } */
+
+    .container {
+        padding: 65px 0px 65px 172px;
     }
 
     .nav-content {
@@ -83,9 +87,9 @@
     }
 
 
-/* Destination */
+    /* Destination */
 
-    .destination-content{
+    .destination-content {
         margin-top: 3rem;
     }
 
@@ -98,7 +102,7 @@
 
     .common-title {
         text-align: center;
-        font-size: 70px;
+        font-size: 90px;
     }
 
     .common-discription {
@@ -153,37 +157,301 @@
         position: relative;
         top: 5rem;
         left: 6rem;
-        
+
     }
 
-    .img-item-3 h6{
+    .img-item-3 h6 {
         left: 13rem;
     }
 
-    .img-item-4 h6{
+    .img-item-4 h6 {
         left: 5rem;
     }
 
-    .img-item-5 h6{
+    .img-item-5 h6 {
         left: 18rem;
     }
 
-    .img-item-6 h6{
+    .img-item-6 h6 {
         left: 9rem;
     }
 
-    .img-item-7 h6{
+    .img-item-7 h6 {
         left: 3rem;
     }
 
 
-/* Chooose */
+    /* Chooose */
+
+    .choose-text {
+        margin-bottom: 15rem;
+    }
+
+    .card-three,
+    .card-one,
+    .card-two {
+        padding: 35px 55px 35px 110px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .choose-card {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 4rem;
+    }
+
+    .card {
+        width: 70rem;
+        height: 55rem;
+    }
+
+    .card img {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .chosse-title {
+        margin-top: 2.5rem;
+        font-size: 5rem;
+    }
+
+    .choose-discription {
+        margin-top: 3.5rem;
+        font-size: 3rem;
+        line-height: 5rem;
+    }
 
 
+    /* Discount */
+
+    .dis-img {
+        height: 64rem;
+        margin-top: 15rem;
+        padding: 55px 50px 55px 360px;
+        border-radius: 4.5rem;
+        border: 0px;
+    }
+
+    .dis-card {
+        padding: 50px 55px 50px 55px;
+        width: 45rem;
+        height: 45rem;
+        border-radius: 3rem;
+        position: relative;
+        top: 13rem;
+        right: 9rem;
+    }
+
+    .img-1 {
+        margin-right: 1rem;
+    }
+
+    .img-1 img {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .img-1 .img-watch {
+        display: block;
+    }
+
+    .img-1 p {
+        margin-left: 1px;
+        font-size: 24px;
+    }
+
+    .dis-title {
+        margin-top: 20px;
+    }
+
+    .dis-discription {
+        margin-top: 15px;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .price {
+        margin-top: 50px;
+        margin-bottom: -20px;
+        font-size: 40px;
+    }
+
+    .see-btn {
+        visibility: hidden;
+    }
 
 
+    /* Perfect */
+
+    .perfect-content {
+        margin-top: -15rem;
+        flex-direction: column;
+    }
+
+    .perfect-title {
+        width: 60rem;
+        font-size: 5rem;
+        line-height: 6rem;
+    }
+
+    .perfect-discription {
+        width: 75rem;
+        margin-top: 2rem;
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .perfect-ul li {
+        width: 72rem;
+        margin-bottom: 2rem;
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .perfect-link {
+        width: 72rem;
+        height: 44rem;
+    }
+
+    .perfect-link h1 {
+        width: 51rem;
+        text-align: center;
+        font-size: 5rem;
+        line-height: 6rem;
+        position: relative;
+        top: 16rem;
+        left: 8rem;
+    }
+
+    .more-btn {
+        margin-top: 15rem;
+    }
 
 
+    /* News */
+
+    .news-content {
+        margin-top: -5rem;
+        flex-direction: column;
+    }
+
+    .news-text {
+        width: 66rem;
+        height: 70rem;
+    }
+
+    .news-title {
+        font-size: 5rem;
+    }
+
+    .news-discription {
+        width: 50rem;
+        font-size: 40px;
+        line-height: 4rem;
+    }
+
+    .news-content input {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        padding: 16px 250px 16px 85px;
+        width: 61rem;
+        height: 9rem;
+        border-radius: 1.5rem;
+        font-size: 3rem;
+        border: 0px;
+    }
+
+    .news-img img {
+        width: 67rem;
+        height: 60rem;
+        margin-bottom: -10rem;
+    }
+
+    .sticker {
+        border-radius: 20px;
+        width: 508px;
+        height: 185px;
+        bottom: 110px;
+        left: 543px;
+    }
+
+    .sticker p {
+        font-size: 40px;
+    }
+
+    .sticker h3 {
+        font-size: 54px;
+    }
 
 
+    /* Footer */
+
+    .footer {
+        margin-top: 5rem;
+        padding: 5rem 45rem 5rem 45rem;
+    }
+
+    .foot-text {
+        margin-left: 0rem;
+    }
+
+    .foot-head {
+        width: 30rem;
+        padding-bottom: 20px;
+        margin-left: -16rem;
+        font-size: 5rem;
+    }
+
+    .foot-head img {
+        width: 9rem;
+        height: 8rem;
+    }
+
+    .foot-title,
+    .foot-title span {
+        font-size: 55px;
+    }
+
+    .foot-discription {
+        width: 62rem;
+        margin: 0rem -33rem;
+        color: #5A5A5D;
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 65px;
+    }
+
+    .foot-icon {
+        left: -28rem;
+        margin-top: 5rem;
+        width: 50rem;
+        position: relative;
+    }
+
+    .foot-icon a {
+        font-size: 80px;
+        margin-left: 90px;
+    }
+
+    .border-bottom {
+        margin-left: -40rem;
+        width: 79rem;
+    }
+
+    .foot-copyright p {
+        width: 25rem;
+        margin-left: -10rem;
+        font-size: 2rem;
+    }
+
+}
+
+
+@media screen and (max-width:360px){
+    .nav-title {
+        width: 14rem;
+        color: #131318;
+        font-size: 36px;
+        font-weight: 800;
+    }
 }
