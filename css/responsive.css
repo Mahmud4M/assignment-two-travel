@@ -15,6 +15,10 @@
         flex-direction: column;
     }
 
+    .nav-title{
+        width: 20.9rem;
+    }
+
     .nav-menu {
         visibility: hidden;
     }
@@ -251,6 +255,12 @@
         height: 4rem;
     }
 
+    .dis-card-two {
+        position: relative;
+        top: 6rem;
+        left: -9rem;
+    }
+
     .img-1 .img-watch {
         display: block;
     }
@@ -398,7 +408,7 @@
     .foot-head {
         width: 30rem;
         padding-bottom: 20px;
-        margin-left: -16rem;
+        margin-left: -17rem;
         font-size: 5rem;
     }
 
@@ -446,6 +456,7 @@
 
 }
 
+/* Responsive for Mobile */
 
 @media screen and (max-width:360px){
     .nav-title {

@@ -37,6 +37,7 @@ ul {
     color: #FFF;
     font-size: 20px;
     font-weight: 800;
+    cursor: pointer;
 }
 
 .common-title {
@@ -71,6 +72,7 @@ ul {
     display: flex;
     align-items: center;
     gap: 20px;
+    cursor: pointer;
 }
 
 .nav-menu .nav-list {
@@ -90,7 +92,7 @@ ul {
     font-weight: 800;
 }
 
-.nav-menu .nav-list li a {
+.nav-menu .nav-list li a{
     color: var(--Dark-02, #424247);
     font-size: 18px;
     font-weight: 400;
@@ -382,10 +384,22 @@ ul {
 
 }
 
+.dis-img-one{
+    background-image: url(../Images/cox-bazar.jpg);
+}
+
+.dis-img-two{
+        background-image: url(../Images/california.jpg);
+    }
+
+    .dis-img-three{
+        background-image: url(../Images/masjid.jpg);
+        
+    }
+
 .dis-img {
     margin-top: 35px;
     padding: 55px 55px 55px 600px;
-    background-image: url(../Images/Group\ 39.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -399,6 +413,12 @@ ul {
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
+}
+
+.dis-card-two{
+    position: relative;
+    top: 0rem;
+    left: -33rem;
 }
 
 .dis-icon {
@@ -634,7 +654,7 @@ ul {
 
 .foot-head {
     padding-bottom: 20px;
-    margin-left: 350px;
+    margin-left: 285px;
 }
 
 .foot-discription {
