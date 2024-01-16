@@ -101,6 +101,7 @@ ul {
 
 /* Banner Part Start */
 .banner-content {
+    margin-top: -71px;
     padding: 105px 185px;
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     border-radius: 16px;
@@ -187,6 +188,7 @@ ul {
 
 /* Tours Part Start */
 .tour-content {
+    margin-top: -35px;
     display: flex;
     justify-content: space-between;
     gap: 35px;
@@ -221,6 +223,9 @@ ul {
 
 
 /* Destination Part Start */
+.destination-content{
+    margin-top: -45px;
+}
 .des-img {
     margin-top: 35px;
 }
@@ -312,12 +317,14 @@ ul {
 
 
 
-
-
 /* Destination Part End */
 
 
 /* Choose Part Start */
+
+.choose-content{
+    margin-top: 0px;
+}
 .choose-text {
     margin-top: -50px;
 }
@@ -368,7 +375,7 @@ ul {
 /* Header / Nav Part Start */
 
 .discount-content {
-    margin-top: 0px;
+    margin-top: -30px;
 }
 
 .dis-img-items {
@@ -461,6 +468,7 @@ ul {
     font-weight: 800;
     line-height: 60px;
 }
+
 
 .perfect-discription {
     width: 532px;
@@ -580,6 +588,7 @@ ul {
 
 /* Footere Part Start */
 .footer {
+    margin-top: -75px;
     padding: 110px 285px;
     text-align: center;
     background: rgba(19, 19, 24, 0.05);

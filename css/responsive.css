@@ -1,0 +1,189 @@
+/* Responsive for small devices */
+
+@media screen and (max-width:575.99px) {
+
+    /* Nav/Banner */
+    .container {
+        padding: 65px 70px;
+    }
+
+    .nav-content {
+        flex-direction: column;
+    }
+
+    .nav-menu {
+        visibility: hidden;
+    }
+
+    .banner-content {
+        padding-left: 40px;
+        padding-right: 66rem;
+    }
+
+    .banner-title {
+        width: 67rem;
+    }
+
+    .banner-discription {
+        font-size: 36px;
+        line-height: 45px;
+        width: 62rem;
+    }
+
+    .banner-box {
+        margin-top: 5rem;
+        margin-bottom: -1rem;
+        width: 63.4rem;
+    }
+
+    .drop {
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+        width: 50rem;
+        height: 10rem;
+        font-size: 40px;
+    }
+
+    /* Tour */
+
+    .tour-content {
+        flex-direction: column;
+    }
+
+    .tour-title {
+        font-size: 65px;
+        width: 40rem;
+    }
+
+
+    .tour-discription,
+    .point-text {
+        margin-top: 3rem;
+        font-size: 2.5rem;
+        line-height: 4rem;
+        width: 60rem;
+    }
+
+
+    .btn-primary {
+        margin-top: 5rem;
+        width: 35rem;
+        height: 10rem;
+        border-radius: 2rem;
+        font-size: 3rem;
+    }
+
+    .tour-img {
+        margin-top: 3rem;
+    }
+
+    .tour-img img {
+        width: 68.5rem;
+        height: 65rem;
+    }
+
+
+/* Destination */
+
+    .destination-content{
+        margin-top: 3rem;
+    }
+
+    .des-text,
+    .choose-text,
+    .dis-text {
+        width: 68.5rem;
+        height: 10rem;
+    }
+
+    .common-title {
+        text-align: center;
+        font-size: 70px;
+    }
+
+    .common-discription {
+        margin-bottom: 5rem;
+        width: 67rem;
+        font-size: 3rem;
+        line-height: 4rem;
+        text-align: center;
+    }
+
+    .des-img {
+        margin-top: 13rem;
+    }
+
+    .img-one,
+    .img-two,
+    .img-three {
+        display: block;
+    }
+
+    .img-item-1,
+    .img-item-2,
+    .img-item-3,
+    .img-item-4,
+    .img-item-5,
+    .img-item-6,
+    .img-item-7 {
+        margin-bottom: 4rem;
+    }
+
+    .img-item-1,
+    .img-item-2,
+    .img-item-3,
+    .img-item-4,
+    .img-item-5,
+    .img-item-6,
+    .img-item-7 {
+        width: 68.5rem;
+        height: 35rem;
+    }
+
+    .img-item-1 h6,
+    .img-item-2 h6,
+    .img-item-3 h6,
+    .img-item-4 h6,
+    .img-item-5 h6,
+    .img-item-6 h6,
+    .img-item-7 h6 {
+        font-size: 6rem;
+        width: 43rem;
+
+        position: relative;
+        top: 5rem;
+        left: 6rem;
+        
+    }
+
+    .img-item-3 h6{
+        left: 13rem;
+    }
+
+    .img-item-4 h6{
+        left: 5rem;
+    }
+
+    .img-item-5 h6{
+        left: 18rem;
+    }
+
+    .img-item-6 h6{
+        left: 9rem;
+    }
+
+    .img-item-7 h6{
+        left: 3rem;
+    }
+
+
+/* Chooose */
+
+
+
+
+
+
+
+
+}
