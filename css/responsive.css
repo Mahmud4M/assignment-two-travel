@@ -12,8 +12,24 @@
         flex-direction: column;
     }
 
+    .nav-icon {
+        position: relative;
+        top: 0rem;
+        left: 11rem;
+    }
+
+    .nav-icon img{
+        width: 6rem;
+        height: 6rem;
+    }
+
     .nav-title {
-        width: 20.9rem;
+        width: 40rem;
+    }
+
+    .nav-title span,
+    .nav-title{
+        font-size: 4rem;
     }
 
     .nav-menu {
@@ -27,6 +43,7 @@
         height: 10.5px;
         font-size: 6rem;
         position: relative;
+        top: 0rem;
         left: 63rem;
         cursor: pointer;
     }
@@ -290,17 +307,23 @@
 
     .dis-title {
         margin-top: 20px;
+        font-size: 55px;
     }
 
     .dis-discription {
-        margin-top: 15px;
-        font-size: 32px;
-        line-height: 40px;
+            margin-top: 15px;
+            font-size: 38px;
+            line-height: 45px;
+            margin-bottom: -4rem;
+    }
+
+    .dis-discription span{
+        visibility: hidden;
     }
 
     .price {
         margin-top: 50px;
-        margin-bottom: -20px;
+        margin-bottom: -53px;
         font-size: 40px;
     }
 
@@ -424,15 +447,19 @@
     }
 
     .foot-head {
-        width: 30rem;
+        width: 45rem;
         padding-bottom: 20px;
-        margin-left: -17rem;
+        margin-left: -33rem;
         font-size: 5rem;
     }
 
     .foot-head img {
         width: 9rem;
         height: 8rem;
+    }
+
+    .foot-title{
+        width: 32rem;
     }
 
     .foot-title,
@@ -477,10 +504,51 @@
 /* Responsive for Mobile */
 
 @media screen and (max-width:360px) {
+
+    /* Nav */
     .nav-title {
         width: 14rem;
         color: #131318;
         font-size: 36px;
         font-weight: 800;
     }
+
+    .nav-icon {
+        position: relative;
+        left: 16.5rem;
+    }
+
+    .nav-title {
+        width: 40rem;
+        font-size: 66px;
+    }
+
+    .nav-title span {
+        color: #FF5400;
+        font-size: 66px;
+        font-weight: 800;
+    }
+
+    .nav-toggle {
+        position: relative;
+        top: -6.5px;
+        left: 63rem;
+    }
+
+    /* Foot */
+    .footer {
+        padding: 15rem 45rem 5rem 45rem;
+    }
+
+    .foot-head img {
+        margin-right: -22rem;
+        position: relative;
+        top: -9rem;
+        left: 4rem;
+    }
+
+    .foot-discription {
+        width: 68rem;
+    }
+
 }
