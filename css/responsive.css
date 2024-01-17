@@ -1,3 +1,199 @@
+/* Responsive for Large device */
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
+    /* Nav & Banner */
+    .container {
+        padding: 45px 50px 45px 50px;
+    }
+
+    .nav-content{
+        margin-bottom: 2rem;
+        width: 70.5rem;
+    }
+
+    .banner-content{
+        margin-bottom: 2rem;
+        width: 71.8rem;
+    }
+
+    .nav-menu {
+        position: relative;
+        left: .7rem;
+    }
+
+    .banner-discription {
+        width: 47rem;
+        font-size: 20px;
+        line-height: 1.8rem;
+    }
+
+    .banner-box {
+        width: 55rem;
+        margin-left: -3rem;
+    }
+
+    /* Tour */
+
+    .tour-content{
+        gap: 50px;
+    }
+
+    /* Destination */
+
+    .destination-content {
+        margin-top: 0;
+        width: 55rem;
+        margin-left: 8rem;
+    }
+
+    .des-img {
+        position: relative;
+        left: 0.5rem;
+    }
+
+    .img-one {
+        margin-bottom: 2rem;
+        gap: 2rem;
+    }
+
+    .img-two {
+        margin-bottom: 2.5rem;
+        gap: 2rem;
+    }
+
+
+    .img-item-1{
+        padding: 132px 220px;
+    }
+    .img-item-2 {
+        padding: 132px 205px;
+    }
+
+    .img-item-3 {
+        padding: 125px 135px;
+    }
+
+    .img-item-4 {
+        padding: 125px 125px;
+    }
+
+
+    .img-item-5 {
+        padding: 130px 105px;
+    }
+
+    .img-three {
+        margin-top: -.5rem;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .img-item-6 {
+        padding: 132px 160px;
+    }
+
+    .img-item-7 {
+        padding: 132px 232px;
+    }
+
+
+    /* Chosse */
+
+
+    .choose-content {
+        margin-top: 1rem;
+        width: 71rem;
+    }
+
+    .choose-box{
+        position: relative;
+        left: .5rem;
+    }
+
+    .card-three {
+        margin-left: 18rem;
+        margin-right: 0%;
+        width: 100%;
+    }
+
+    /* Doscount */
+
+    .discount-content {
+        width: 75rem;
+        margin-top: 0rem;
+    }
+
+    .dis-text {
+        margin-left: -3rem;
+    }
+
+    .dis-img {
+        width: 71.8rem;
+    }
+
+    .dis-card {
+        margin-left: -5rem;
+    }
+
+    .dis-card-two {
+        left: -29rem;
+    }
+
+
+    /* Perfect */
+
+    .perfect-link {
+        width: 36rem;
+        height: 30rem;
+    }
+
+    .perfect-link h1 {
+        left: 0rem;
+    }
+
+
+    /* News */
+
+    .news-content {
+        position: relative;
+        top: -2rem;
+        gap: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .news-img img{
+        width: 41.5rem;
+        height: 20rem;
+        height: 26.3rem;
+    }
+
+
+    .sticker{
+        bottom: 11rem;
+        left: 20.3rem;
+    }
+
+
+    /* footer */
+
+    .footer {
+        width: 78rem;
+    }
+
+    .foot-head {
+        margin-left: 8.5rem;
+    }
+
+    .foot-discription {
+        position: relative;
+        left: -3rem;
+    }
+
+}
+
+
 /* Responsive for small devices */
 
 @media screen and (max-width:575.99px) {
@@ -18,7 +214,7 @@
         left: 11rem;
     }
 
-    .nav-icon img{
+    .nav-icon img {
         width: 6rem;
         height: 6rem;
     }
@@ -28,7 +224,7 @@
     }
 
     .nav-title span,
-    .nav-title{
+    .nav-title {
         font-size: 4rem;
     }
 
@@ -36,27 +232,25 @@
         visibility: hidden;
     }
 
-
     .nav-toggle {
         visibility: visible;
         width: 16.5px;
         height: 10.5px;
-        font-size: 6rem;
+        font-size: 5rem;
         position: relative;
-        top: 0rem;
+        top: .5rem;
         left: 63rem;
         cursor: pointer;
     }
-    
-    .nav-toggle a{
+
+    .nav-toggle a {
         color: #000;
         transition: all linear .3s;
     }
-    
-    .nav-toggle a:hover{
+
+    .nav-toggle a:hover {
         background-color: #FF5400;
     }
-
 
     .banner-content {
         padding-left: 40px;
@@ -87,6 +281,7 @@
         font-size: 40px;
     }
 
+    
     /* Tour */
 
     .tour-content {
@@ -97,7 +292,6 @@
         font-size: 65px;
         width: 40rem;
     }
-
 
     .tour-discription,
     .point-text {
@@ -311,13 +505,13 @@
     }
 
     .dis-discription {
-            margin-top: 15px;
-            font-size: 38px;
-            line-height: 45px;
-            margin-bottom: -4rem;
+        margin-top: 15px;
+        font-size: 38px;
+        line-height: 45px;
+        margin-bottom: -4rem;
     }
 
-    .dis-discription span{
+    .dis-discription span {
         visibility: hidden;
     }
 
@@ -458,7 +652,7 @@
         height: 8rem;
     }
 
-    .foot-title{
+    .foot-title {
         width: 32rem;
     }
 
@@ -468,7 +662,7 @@
     }
 
     .foot-discription {
-        width: 62rem;
+        width: 67rem;
         margin: 0rem -33rem;
         color: #5A5A5D;
         font-size: 50px;
@@ -477,7 +671,7 @@
     }
 
     .foot-icon {
-        left: -28rem;
+        left: -27rem;
         margin-top: 5rem;
         width: 50rem;
         position: relative;
@@ -531,13 +725,21 @@
 
     .nav-toggle {
         position: relative;
-        top: -6.5px;
+        top: 10.5px;
         left: 63rem;
     }
 
     /* Foot */
     .footer {
         padding: 15rem 45rem 5rem 45rem;
+    }
+
+    .nav-title {
+        width: 39rem;
+    }
+
+    .foot-head {
+        left: 27rem;
     }
 
     .foot-head img {
@@ -549,6 +751,14 @@
 
     .foot-discription {
         width: 68rem;
+    }
+
+    .foot-icon {
+        left: -26rem;
+    }
+
+    .foot-copyright p {
+        width: 25rem;
     }
 
 }
